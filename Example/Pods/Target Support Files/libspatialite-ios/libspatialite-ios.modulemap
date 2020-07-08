@@ -1,6 +1,0 @@
-framework module libspatialite_ios {
-  umbrella header "libspatialite-ios-umbrella.h"
-
-  export *
-  module * { export * }
-}
