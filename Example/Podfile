@@ -1,0 +1,6 @@
+use_frameworks!
+target 'libspatialite-ios_Tests' do
+  pod 'libspatialite-ios', :path => '../'
+  
+  
+end
