@@ -7,8 +7,15 @@
 #
 
 Pod::Spec.new do |s|
+
+  s.prepare_command = <<-CMD
+  pwd
+  chmod u+x build.sh
+  sh ./build.sh
+  CMD
+
   s.name             = 'libspatialite'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A library libSpatialite for iOS with CocoaPods and Charthage (ARM64 with bitcode)'
   s.platform         = :ios
   s.static_framework = true
@@ -39,11 +46,6 @@ I would like to accept your cooperation.
   s.source_files = 'libspatialite/Classes/**/*'
   s.public_header_files = 'libspatialite/include/**/*.h'
 
-  s.prepare_command = <<-CMD
-  pwd
-  chmod u+x build.sh
-  sh ./build.sh
-  CMD
   
   s.libraries = 'iconv', 'charset.1.0.0', 'xml2.2', 'c++', 'z'
   s.vendored_libraries = 'lib/arm64/libproj.a', 'lib/arm64/libgeos.a', 'lib/arm64/libgeos_c.a', 'lib/arm64/libspatialite.a'

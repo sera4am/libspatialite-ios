@@ -1,6 +1,7 @@
 {
   "name": "libspatialite",
-  "version": "0.1.0",
+  "prepare_command": "pwd\nchmod u+x build.sh\nsh ./build.sh",
+  "version": "0.1.1",
   "summary": "A library libSpatialite for iOS with CocoaPods and Charthage (ARM64 with bitcode)",
   "platforms": {
     "ios": "8.0"
@@ -17,12 +18,11 @@
   },
   "source": {
     "git": "https://github.com/sera4am/libspatialite.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/ryamcat",
   "source_files": "libspatialite/Classes/**/*",
   "public_header_files": "libspatialite/include/**/*.h",
-  "prepare_command": "pwd\nchmod u+x build.sh\nsh ./build.sh",
   "libraries": [
     "iconv",
     "charset.1.0.0",

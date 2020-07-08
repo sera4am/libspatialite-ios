@@ -6,13 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		110CF5637472644BD49D22CFDDBCEBE7 /* libspatialite */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F56F6DC5E566FB30616FFA46D19A1E79 /* Build configuration list for PBXAggregateTarget "libspatialite" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = libspatialite;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		276D2BB0071528890E4B1C94EA5E5F97 /* Pods-libspatialite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9492E6A5D398144AB52A8D52CB115FD8 /* Pods-libspatialite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2863DC905695D784A66F95177B392210 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53C00A681F5CDD7734EA7B75C95198 /* ReplaceMe.swift */; };
 		294FC9399D7C34A34B6D7D2E7B5A445C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		44249F65D4CF9992A2118A5853AFEA0B /* libspatialite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB57C6EEBD0746BEE805D5088A119625 /* libspatialite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50D717AE22FA3428C0F8F50308226EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B7133C0EEA2569BA2C59375D2B8D34F9 /* libspatialite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C36511D9C1B878158EA79539351E0 /* libspatialite-dummy.m */; };
 		D441D28BB0F2CE5CD40435F0FA60C3D0 /* Pods-libspatialite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E54517EFF2085DAD6ED43C9727679379 /* Pods-libspatialite_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -27,32 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10DAFF68135811A1687968F4E3EDBF73 /* libspatialite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libspatialite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1426CC6795BACE8777DDABA2872ED53E /* Pods_libspatialite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libspatialite_Tests.framework; path = "Pods-libspatialite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		290C36511D9C1B878158EA79539351E0 /* libspatialite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libspatialite-dummy.m"; sourceTree = "<group>"; };
+		31A44EFB4BECE8C5E3389B844D5BEB8F /* libproj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libproj.a; path = lib/arm64/libproj.a; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33218A88369E2E0BDEC67CA5A8DA8B6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		395B23A362B802EB8D7F33DF19687092 /* libspatialite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libspatialite.debug.xcconfig; sourceTree = "<group>"; };
+		35A988A77D3EA72C92F3360D027B7EE2 /* libspatialite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libspatialite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4060E0CC22FB13D0D79EDD02848BD95E /* Pods-libspatialite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libspatialite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4895DF91BBDCF75E3885BABB8FAE5F19 /* libspatialite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libspatialite.framework; path = libspatialite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D23D17F539B2985BC37C34BA6695F2 /* libspatialite.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libspatialite.a; path = lib/arm64/libspatialite.a; sourceTree = "<group>"; };
-		5D1307D756AEDCBC03AA6FA988B35DD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F4471F94F9DC1E6690797A85F452A29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		664BC9E5F0646418D48CA71C2B083510 /* Pods-libspatialite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libspatialite_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		68F006022F4D74541D65449CA372AD09 /* libproj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libproj.a; path = lib/arm64/libproj.a; sourceTree = "<group>"; };
-		93A21CEE575825A8AB318F531869B502 /* libgeos_c.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libgeos_c.a; path = lib/arm64/libgeos_c.a; sourceTree = "<group>"; };
+		6AFA8BE36DDCC15C9A87CB88B7A0E89F /* libspatialite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libspatialite.release.xcconfig; sourceTree = "<group>"; };
+		78464F3A6AB6C37CA00AF38A06331574 /* libgeos_c.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libgeos_c.a; path = lib/arm64/libgeos_c.a; sourceTree = "<group>"; };
 		94060D42D1C8B019464B9FC789420A37 /* Pods-libspatialite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libspatialite_Tests.modulemap"; sourceTree = "<group>"; };
 		9492E6A5D398144AB52A8D52CB115FD8 /* Pods-libspatialite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libspatialite_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB57C6EEBD0746BEE805D5088A119625 /* libspatialite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libspatialite-umbrella.h"; sourceTree = "<group>"; };
-		B99F6E2B0AC50CA0B99DCF50FB61F024 /* libspatialite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libspatialite.release.xcconfig; sourceTree = "<group>"; };
-		BAB87EC284DD15D99CC188E9D6207BBC /* libspatialite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libspatialite-Info.plist"; sourceTree = "<group>"; };
-		BBFBFB7B8C068CB45C31EF67F044A556 /* libgeos.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libgeos.a; path = lib/arm64/libgeos.a; sourceTree = "<group>"; };
 		C904A53F5D0D4A04D479E50F84D8A161 /* Pods-libspatialite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libspatialite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CFE184DBAE0209420A3A4518D30DED58 /* libspatialite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libspatialite-prefix.pch"; sourceTree = "<group>"; };
+		CAE03F9625001B5941647B572C91B1A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CEBBE5D136CA2D8ACBBD4569F06A14BE /* libgeos.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libgeos.a; path = lib/arm64/libgeos.a; sourceTree = "<group>"; };
+		D4503C74FF547409CA450D90A0834A20 /* libspatialite.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libspatialite.a; path = lib/arm64/libspatialite.a; sourceTree = "<group>"; };
 		E54517EFF2085DAD6ED43C9727679379 /* Pods-libspatialite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libspatialite_Tests-dummy.m"; sourceTree = "<group>"; };
-		ED53C00A681F5CDD7734EA7B75C95198 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = libspatialite/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F050CAD85CB707A4EBBDA997EC4B2D03 /* libspatialite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libspatialite.debug.xcconfig; sourceTree = "<group>"; };
 		F20D09F2EB5000CCF7F260B9F3167B0E /* Pods-libspatialite_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libspatialite_Tests-Info.plist"; sourceTree = "<group>"; };
-		F21A366E3021C8C846C8367CA62D50AE /* libspatialite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libspatialite.modulemap; sourceTree = "<group>"; };
 		F52ABF9DD390CA08A3CFA68AF1A9130A /* Pods-libspatialite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libspatialite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,41 +66,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5937F500978A70C4856F982C1492F64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50D717AE22FA3428C0F8F50308226EEB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D42AC84745F4A714E0341D310D2A0D9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4895DF91BBDCF75E3885BABB8FAE5F19 /* libspatialite.framework */,
-				1426CC6795BACE8777DDABA2872ED53E /* Pods_libspatialite_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5357DFA866E7F8C2091929766402F8C7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F21A366E3021C8C846C8367CA62D50AE /* libspatialite.modulemap */,
-				290C36511D9C1B878158EA79539351E0 /* libspatialite-dummy.m */,
-				BAB87EC284DD15D99CC188E9D6207BBC /* libspatialite-Info.plist */,
-				CFE184DBAE0209420A3A4518D30DED58 /* libspatialite-prefix.pch */,
-				AB57C6EEBD0746BEE805D5088A119625 /* libspatialite-umbrella.h */,
-				395B23A362B802EB8D7F33DF19687092 /* libspatialite.debug.xcconfig */,
-				B99F6E2B0AC50CA0B99DCF50FB61F024 /* libspatialite.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libspatialite";
-			sourceTree = "<group>";
-		};
 		5D9E2EE4CE62A0AC1094C72EA573B077 /* Pods-libspatialite_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,14 +85,32 @@
 			path = "Target Support Files/Pods-libspatialite_Tests";
 			sourceTree = "<group>";
 		};
-		B9CE32002476E16762655C3B030C7251 /* Pod */ = {
+		6D3956A92560D2EB2C870A32A655768C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				10DAFF68135811A1687968F4E3EDBF73 /* libspatialite.podspec */,
-				5D1307D756AEDCBC03AA6FA988B35DD8 /* LICENSE */,
-				33218A88369E2E0BDEC67CA5A8DA8B6F /* README.md */,
+				35A988A77D3EA72C92F3360D027B7EE2 /* libspatialite.podspec */,
+				CAE03F9625001B5941647B572C91B1A8 /* LICENSE */,
+				4F4471F94F9DC1E6690797A85F452A29 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		7277F0D7F056093A1588990DDEAEE473 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D411C6B46EC9B40D03566438F556CF50 /* libspatialite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A6F04B9E6B1BFE926F50A76D6918F4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F050CAD85CB707A4EBBDA997EC4B2D03 /* libspatialite.debug.xcconfig */,
+				6AFA8BE36DDCC15C9A87CB88B7A0E89F /* libspatialite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libspatialite";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -134,25 +121,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C9BD00E4EFF68A645BE6B648D09C46C4 /* libspatialite */ = {
-			isa = PBXGroup;
-			children = (
-				ED53C00A681F5CDD7734EA7B75C95198 /* ReplaceMe.swift */,
-				D53EE75BA3B34475954924CDA39937C3 /* Frameworks */,
-				B9CE32002476E16762655C3B030C7251 /* Pod */,
-				5357DFA866E7F8C2091929766402F8C7 /* Support Files */,
-			);
-			name = libspatialite;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				ED0A5241FF5702E84F16CBE0FFE4D053 /* Development Pods */,
+				7277F0D7F056093A1588990DDEAEE473 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4D42AC84745F4A714E0341D310D2A0D9 /* Products */,
+				EB69CD919C321EC0138298529839B65D /* Products */,
 				E68B33189C25B0F664EF763C5339D11C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -165,15 +140,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D53EE75BA3B34475954924CDA39937C3 /* Frameworks */ = {
+		D411C6B46EC9B40D03566438F556CF50 /* libspatialite */ = {
 			isa = PBXGroup;
 			children = (
-				BBFBFB7B8C068CB45C31EF67F044A556 /* libgeos.a */,
-				93A21CEE575825A8AB318F531869B502 /* libgeos_c.a */,
-				68F006022F4D74541D65449CA372AD09 /* libproj.a */,
-				48D23D17F539B2985BC37C34BA6695F2 /* libspatialite.a */,
+				F764FA995D42BB281D042812EED40FB9 /* Frameworks */,
+				6D3956A92560D2EB2C870A32A655768C /* Pod */,
+				9A6F04B9E6B1BFE926F50A76D6918F4E /* Support Files */,
 			);
-			name = Frameworks;
+			name = libspatialite;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E68B33189C25B0F664EF763C5339D11C /* Targets Support Files */ = {
@@ -184,12 +159,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ED0A5241FF5702E84F16CBE0FFE4D053 /* Development Pods */ = {
+		EB69CD919C321EC0138298529839B65D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9BD00E4EFF68A645BE6B648D09C46C4 /* libspatialite */,
+				1426CC6795BACE8777DDABA2872ED53E /* Pods_libspatialite_Tests.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F764FA995D42BB281D042812EED40FB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBE5D136CA2D8ACBBD4569F06A14BE /* libgeos.a */,
+				78464F3A6AB6C37CA00AF38A06331574 /* libgeos_c.a */,
+				31A44EFB4BECE8C5E3389B844D5BEB8F /* libproj.a */,
+				D4503C74FF547409CA450D90A0834A20 /* libspatialite.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,35 +189,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE482C323D9166C1D181140399D5EA67 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44249F65D4CF9992A2118A5853AFEA0B /* libspatialite-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		110CF5637472644BD49D22CFDDBCEBE7 /* libspatialite */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FC331B6651C31CBCAA93FDB4210539F /* Build configuration list for PBXNativeTarget "libspatialite" */;
-			buildPhases = (
-				DE482C323D9166C1D181140399D5EA67 /* Headers */,
-				7DE5943BF0B330D874736F73C5D8A37E /* Sources */,
-				E5937F500978A70C4856F982C1492F64 /* Frameworks */,
-				83CAE14F592920E8CF807DB68B4DD2EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libspatialite;
-			productName = libspatialite;
-			productReference = 4895DF91BBDCF75E3885BABB8FAE5F19 /* libspatialite.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		12F3AF8B069ADEE0FCF8267C87EAB5FD /* Pods-libspatialite_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 940D4BA83DC0D8A41B65B2D0F7E91693 /* Build configuration list for PBXNativeTarget "Pods-libspatialite_Tests" */;
@@ -269,7 +229,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4D42AC84745F4A714E0341D310D2A0D9 /* Products */;
+			productRefGroup = EB69CD919C321EC0138298529839B65D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -280,13 +240,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83CAE14F592920E8CF807DB68B4DD2EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A2C52B0491C8963C0EFB82186ABA817C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,15 +250,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7DE5943BF0B330D874736F73C5D8A37E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7133C0EEA2569BA2C59375D2B8D34F9 /* libspatialite-dummy.m in Sources */,
-				2863DC905695D784A66F95177B392210 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		829758CF1475D591F67F50B43D83185D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,40 +270,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14186CA8143DFC02BFFAA2C3F5B6423A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99F6E2B0AC50CA0B99DCF50FB61F024 /* libspatialite.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libspatialite/libspatialite-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libspatialite/libspatialite-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/libspatialite/libspatialite.modulemap";
-				PRODUCT_MODULE_NAME = libspatialite;
-				PRODUCT_NAME = libspatialite;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1C050C4AD316AF7BB5B64F2942AEB676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4060E0CC22FB13D0D79EDD02848BD95E /* Pods-libspatialite_Tests.debug.xcconfig */;
@@ -491,38 +401,20 @@
 			};
 			name = Release;
 		};
-		5DC2CEA8D5B3CDC1E5899A763B69B72C /* Debug */ = {
+		A662D7B93FBD6218D348F5D962596B34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 395B23A362B802EB8D7F33DF19687092 /* libspatialite.debug.xcconfig */;
+			baseConfigurationReference = 6AFA8BE36DDCC15C9A87CB88B7A0E89F /* libspatialite.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libspatialite/libspatialite-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libspatialite/libspatialite-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/libspatialite/libspatialite.modulemap";
-				PRODUCT_MODULE_NAME = libspatialite;
-				PRODUCT_NAME = libspatialite;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -588,18 +480,23 @@
 			};
 			name = Debug;
 		};
+		EE84AA8E1FF0DFEDCE8E223262FC0BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F050CAD85CB707A4EBBDA997EC4B2D03 /* libspatialite.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FC331B6651C31CBCAA93FDB4210539F /* Build configuration list for PBXNativeTarget "libspatialite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5DC2CEA8D5B3CDC1E5899A763B69B72C /* Debug */,
-				14186CA8143DFC02BFFAA2C3F5B6423A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -614,6 +511,15 @@
 			buildConfigurations = (
 				1C050C4AD316AF7BB5B64F2942AEB676 /* Debug */,
 				358A9CE222270A942A68DEEB9B72B27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56F6DC5E566FB30616FFA46D19A1E79 /* Build configuration list for PBXAggregateTarget "libspatialite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE84AA8E1FF0DFEDCE8E223262FC0BF3 /* Debug */,
+				A662D7B93FBD6218D348F5D962596B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

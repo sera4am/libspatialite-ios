@@ -1,5 +1,5 @@
 PODS:
-  - libspatialite (0.1.0)
+  - libspatialite (0.1.1)
 
 DEPENDENCIES:
   - libspatialite (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libspatialite: 098c39a13be502a45919748e3e53285692801478
+  libspatialite: b89f2ad434f04438f050186a3f5f2111214b2269
 
 PODFILE CHECKSUM: 83f68c9dc43cd72b364ef1e1905b32da60f6f28a
 
