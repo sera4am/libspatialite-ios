@@ -1,0 +1,29 @@
+--- shell.c	2020-06-18 23:35:20.000000000 +0900
++++ shell2.c	2020-07-07 23:04:30.000000000 +0900
+@@ -10013,7 +10013,7 @@
+     sqlite3_result_error_nomem(context);
+     goto edit_func_end;
+   }
+-  rc = system(zCmd);
++  rc = -1;
+   sqlite3_free(zCmd);
+   if( rc ){
+     sqlite3_result_error(context, "EDITOR returned non-zero", -1);
+@@ -13649,7 +13649,7 @@
+ #endif
+       char *zCmd;
+       zCmd = sqlite3_mprintf("%s %s", zXdgOpenCmd, p->zTempFile);
+-      if( system(zCmd) ){
++      if( -1 ){
+         utf8_printf(stderr, "Failed: [%s]\n", zCmd);
+       }else{
+         /* Give the start/open/xdg-open command some time to get
+@@ -17960,7 +17960,7 @@
+       zCmd = sqlite3_mprintf(strchr(azArg[i],' ')==0?"%z %s":"%z \"%s\"",
+                              zCmd, azArg[i]);
+     }
+-    x = system(zCmd);
++    x = -1;
+     sqlite3_free(zCmd);
+     if( x ) raw_printf(stderr, "System command returns %d\n", x);
+   }else
