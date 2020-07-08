@@ -15,10 +15,8 @@ Pod::Spec.new do |s|
   CMD
 
   s.name             = 'libspatialite'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'A library libSpatialite for iOS with CocoaPods and Charthage (ARM64 with bitcode)'
-  s.platform         = :ios
-  s.static_framework = true
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -43,11 +41,10 @@ I would like to accept your cooperation.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libspatialite/Classes/**/*'
-  s.public_header_files = 'libspatialite/include/**/*.h'
-
+  s.source_files = 'libspatialite/Classes/**/*', 'include/**/*.h'
+  s.header_mappings_dir = 'include'
   
-  s.libraries = 'iconv', 'charset.1.0.0', 'xml2.2', 'c++', 'z'
+  s.ios.libraries = 'iconv', 'charset.1.0.0', 'xml2.2', 'c++', 'z'
   s.vendored_libraries = 'lib/arm64/libproj.a', 'lib/arm64/libgeos.a', 'lib/arm64/libgeos_c.a', 'lib/arm64/libspatialite.a'
   
 end

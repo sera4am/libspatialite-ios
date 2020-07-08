@@ -1,12 +1,8 @@
 {
   "name": "libspatialite",
   "prepare_command": "pwd\nchmod u+x build.sh\nsh ./build.sh",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "A library libSpatialite for iOS with CocoaPods and Charthage (ARM64 with bitcode)",
-  "platforms": {
-    "ios": "8.0"
-  },
-  "static_framework": true,
   "description": "A library for using libspatialite on iOS.\nAvailable in CocoaPods or Carthage.\n\nSince the decent libspatialite library did not exist for a while, I will publish the CococaPods library that builds libspatialite.\nIm rook to Podspec file, so maybe there is something wrong.\nI would like to accept your cooperation.",
   "homepage": "https://github.com/sera4am/libspatialite",
   "license": {
@@ -18,18 +14,26 @@
   },
   "source": {
     "git": "https://github.com/sera4am/libspatialite.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "social_media_url": "https://twitter.com/ryamcat",
-  "source_files": "libspatialite/Classes/**/*",
-  "public_header_files": "libspatialite/include/**/*.h",
-  "libraries": [
-    "iconv",
-    "charset.1.0.0",
-    "xml2.2",
-    "c++",
-    "z"
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "libspatialite/Classes/**/*",
+    "include/**/*.h"
   ],
+  "header_mappings_dir": "include",
+  "ios": {
+    "libraries": [
+      "iconv",
+      "charset.1.0.0",
+      "xml2.2",
+      "c++",
+      "z"
+    ]
+  },
   "vendored_libraries": [
     "lib/arm64/libproj.a",
     "lib/arm64/libgeos.a",
