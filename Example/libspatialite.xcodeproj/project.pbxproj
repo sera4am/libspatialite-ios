@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		68E4B1AEA2E5CC80441F76EE /* Pods_libspatialite_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97E28085D144C95BC5AC77D /* Pods_libspatialite_Example.framework */; };
 		A066A0A65F18DEA67CCCA77A /* Pods_libspatialite_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8EC4126F347570EE8D88E /* Pods_libspatialite_Tests.framework */; };
+		D827916624B6F2AB00E500E7 /* Hoge.m in Sources */ = {isa = PBXBuildFile; fileRef = D827916524B6F2AB00E500E7 /* Hoge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +30,9 @@
 
 /* Begin PBXFileReference section */
 		0DE674A79F7856A95087F73B /* Pods-libspatialite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libspatialite_Tests.debug.xcconfig"; path = "Target Support Files/Pods-libspatialite_Tests/Pods-libspatialite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		10875E130E3AD07A8C54C746 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		10875E130E3AD07A8C54C746 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2277AEA0C61B01EC84A9B812 /* Pods-libspatialite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libspatialite_Tests.release.xcconfig"; path = "Target Support Files/Pods-libspatialite_Tests/Pods-libspatialite_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		31873475DF76A989FA28F2B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		31873475DF76A989FA28F2B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* libspatialite_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libspatialite_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +43,14 @@
 		607FACE51AFB9204008FA782 /* libspatialite_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libspatialite_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A49E49F95857AE31811E70D2 /* libspatialite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libspatialite.podspec; path = ../libspatialite.podspec; sourceTree = "<group>"; };
+		A49E49F95857AE31811E70D2 /* libspatialite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libspatialite.podspec; path = ../libspatialite.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC7FA1EF4D7C349264728B01 /* Pods-libspatialite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libspatialite_Example.release.xcconfig"; path = "Target Support Files/Pods-libspatialite_Example/Pods-libspatialite_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BCE8EC4126F347570EE8D88E /* Pods_libspatialite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libspatialite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53D0B80B8BCDB0EAEDAB5A0 /* Pods-libspatialite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libspatialite_Example.debug.xcconfig"; path = "Target Support Files/Pods-libspatialite_Example/Pods-libspatialite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D827915F24B6F22600E500E7 /* libspatialite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libspatialite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D827916324B6F2AB00E500E7 /* libspatialite_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libspatialite_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		D827916424B6F2AB00E500E7 /* Hoge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hoge.h; sourceTree = "<group>"; };
+		D827916524B6F2AB00E500E7 /* Hoge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hoge.m; sourceTree = "<group>"; };
 		F97E28085D144C95BC5AC77D /* Pods_libspatialite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libspatialite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +82,6 @@
 				0DE674A79F7856A95087F73B /* Pods-libspatialite_Tests.debug.xcconfig */,
 				2277AEA0C61B01EC84A9B812 /* Pods-libspatialite_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,6 +115,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				D827916424B6F2AB00E500E7 /* Hoge.h */,
+				D827916524B6F2AB00E500E7 /* Hoge.m */,
+				D827916324B6F2AB00E500E7 /* libspatialite_Example-Bridging-Header.h */,
 			);
 			name = "Example for libspatialite";
 			path = libspatialite;
@@ -154,6 +161,7 @@
 		F917A76794D56CC2AEC4A3A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D827915F24B6F22600E500E7 /* libspatialite.framework */,
 				F97E28085D144C95BC5AC77D /* Pods_libspatialite_Example.framework */,
 				BCE8EC4126F347570EE8D88E /* Pods_libspatialite_Tests.framework */,
 			);
@@ -171,7 +179,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9F218197802C4956F621561D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +220,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = QKEAV9NH26;
+						LastSwiftMigration = 1150;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QKEAV9NH26;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +236,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,24 +294,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F218197802C4956F621561D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-libspatialite_Example/Pods-libspatialite_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/libspatialite/libspatialite.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libspatialite.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-libspatialite_Example/Pods-libspatialite_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C002253C8372DA2EF5F6E19D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +325,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D827916624B6F2AB00E500E7 /* Hoge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,11 +471,16 @@
 			baseConfigurationReference = C53D0B80B8BCDB0EAEDAB5A0 /* Pods-libspatialite_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QKEAV9NH26;
 				INFOPLIST_FILE = libspatialite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "libspatialite/libspatialite_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +491,15 @@
 			baseConfigurationReference = AC7FA1EF4D7C349264728B01 /* Pods-libspatialite_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QKEAV9NH26;
 				INFOPLIST_FILE = libspatialite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "libspatialite/libspatialite_Example-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0DE674A79F7856A95087F73B /* Pods-libspatialite_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QKEAV9NH26;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2277AEA0C61B01EC84A9B812 /* Pods-libspatialite_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QKEAV9NH26;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

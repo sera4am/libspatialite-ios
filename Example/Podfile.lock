@@ -1,0 +1,16 @@
+PODS:
+  - libspatialite (0.1.5)
+
+DEPENDENCIES:
+  - libspatialite (from `../`)
+
+EXTERNAL SOURCES:
+  libspatialite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libspatialite: 7d1b4148c0bce05bb1d2951805cc59fa38e45837
+
+PODFILE CHECKSUM: ae244470f8da04b3f6d6f65804a2b153ca00c0d0
+
+COCOAPODS: 1.9.3

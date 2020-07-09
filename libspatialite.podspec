@@ -7,8 +7,15 @@
 #
 
 Pod::Spec.new do |s|
+  s.prepare_command = <<-CMD
+  pwd
+  chmod u+x build.sh
+  sh ./build.sh
+  CMD
+
+    
   s.name             = 'libspatialite'
-  s.version          = '0.1.0'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of libspatialite.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +37,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libspatialite/Classes/**/*'
-  
+  s.source_files = 'include/**/*.h'
+  s.header_mappings_dir = 'include'
+  s.ios.libraries = 'iconv', 'charset.1.0.0', 'xml2.2', 'c++', 'z'
+  s.vendored_libraries = 'lib/arm64/libproj.a', 'lib/arm64/libgeos.a', 'lib/arm64/libgeos_c.a', 'lib/arm64/libspatialite.a'
   # s.resource_bundles = {
   #   'libspatialite' => ['libspatialite/Assets/*.png']
   # }

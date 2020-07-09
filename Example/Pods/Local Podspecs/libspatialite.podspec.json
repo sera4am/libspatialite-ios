@@ -1,0 +1,39 @@
+{
+  "name": "libspatialite",
+  "prepare_command": "pwd\nchmod u+x build.sh\nsh ./build.sh",
+  "version": "0.1.5",
+  "summary": "A short description of libspatialite.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sera4am/libspatialite",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sera4am": "takeo@kazama.biz"
+  },
+  "source": {
+    "git": "https://github.com/sera4am/libspatialite.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "include/**/*.h",
+  "header_mappings_dir": "include",
+  "ios": {
+    "libraries": [
+      "iconv",
+      "charset.1.0.0",
+      "xml2.2",
+      "c++",
+      "z"
+    ]
+  },
+  "vendored_libraries": [
+    "lib/arm64/libproj.a",
+    "lib/arm64/libgeos.a",
+    "lib/arm64/libgeos_c.a",
+    "lib/arm64/libspatialite.a"
+  ]
+}

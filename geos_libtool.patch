@@ -1,0 +1,11 @@
+--- libtool	2020-07-08 11:08:23.000000000 +0900
++++ libtool2	2020-07-08 11:18:30.000000000 +0900
+@@ -9155,7 +9155,7 @@
+ 	# But is supposedly fixed on 10.4 or later (yay!).
+ 	if test "$tagname" = CXX ; then
+ 	  case ${MACOSX_DEPLOYMENT_TARGET-10.0} in
+-	    10.[0123])
++	    10.[0123][,.])
+ 	      compile_command+=" ${wl}-bind_at_load"
+ 	      finalize_command+=" ${wl}-bind_at_load"
+ 	    ;;
