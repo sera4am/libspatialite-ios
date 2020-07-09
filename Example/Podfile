@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libspatialite_Example' do
+  pod 'libspatialite', :path => '../'
+
+  target 'libspatialite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
