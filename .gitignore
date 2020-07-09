@@ -3,6 +3,7 @@
 
 lib/
 include/
+INSTALLED.txt
 
 # Xcode
 build/
