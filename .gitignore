@@ -1,6 +1,9 @@
 # OS X
 .DS_Store
 
+lib/
+include/
+
 # Xcode
 build/
 *.pbxuser
