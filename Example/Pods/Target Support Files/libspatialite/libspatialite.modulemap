@@ -1,6 +1,0 @@
-framework module libspatialite {
-  umbrella header "libspatialite-umbrella.h"
-
-  export *
-  module * { export * }
-}

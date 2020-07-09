@@ -1,1 +1,0 @@
-../../../../../../include/spatialite/sqlite.h

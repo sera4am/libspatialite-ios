@@ -1,1 +1,0 @@
-../../../../../../../include/geos/simplify/TaggedLineStringSimplifier.h

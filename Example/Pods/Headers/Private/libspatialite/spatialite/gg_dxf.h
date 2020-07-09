@@ -1,1 +1,0 @@
-../../../../../../include/spatialite/gg_dxf.h

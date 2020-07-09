@@ -1,1 +1,0 @@
-../../../../../../include/spatialite/gaiaexif.h

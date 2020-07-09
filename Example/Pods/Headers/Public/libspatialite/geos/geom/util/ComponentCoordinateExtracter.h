@@ -1,1 +1,0 @@
-../../../../../../../../include/geos/geom/util/ComponentCoordinateExtracter.h

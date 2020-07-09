@@ -1,1 +1,0 @@
-../../../../../../include/spatialite/geopackage.h

@@ -1,6 +1,0 @@
-use_frameworks!
-target 'libspatialite_Tests' do
-  pod 'libspatialite', :path => '../'
-  
-  
-end

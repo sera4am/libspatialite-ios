@@ -1,1 +1,0 @@
-../../../../../../../../include/geos/triangulate/quadedge/Vertex.h

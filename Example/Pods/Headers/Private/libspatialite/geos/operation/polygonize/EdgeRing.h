@@ -1,1 +1,0 @@
-../../../../../../../../include/geos/operation/polygonize/EdgeRing.h
